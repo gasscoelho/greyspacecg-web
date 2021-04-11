@@ -78,7 +78,7 @@ export default function Home() {
 
             <Flex justifyContent="center">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=Qt2g5UrUhO0"
+                url="https://vimeo.com/535616238"
                 controls
               />
             </Flex>
