@@ -1,8 +1,6 @@
 import { Flex, VStack, Text, Container, Box, Divider } from '@chakra-ui/react'
 import Head from 'next/head'
 import Header from '../components/Header'
-import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im'
-import { BsChevronDoubleRight } from 'react-icons/bs'
 import { HiOutlineChevronDoubleRight } from 'react-icons/hi'
 import Footer from '../components/Footer'
 import QuoteBlock from '../components/QuoteBlock'
@@ -12,16 +10,11 @@ export default function Clients() {
     <div>
       <Head>
         <title>Greyspace Consulting Group | Our Clients</title>
+        <link rel="icon" href="/logo-white.ico" />
       </Head>
 
       <div>
-        <Flex
-          // backgroundImage={'url(images/compressed.jpg)'}
-          // backgroundSize={'cover'}
-          // backgroundPosition={'top'}
-          background="white"
-          boxShadow="md"
-        >
+        <Flex background="white" boxShadow="md">
           <Header invertColors />
         </Flex>
 
@@ -40,7 +33,6 @@ export default function Clients() {
               fontWeight="semibold"
               borderStyle="double"
               pb="4"
-              // borderColor="blue.600"
             >
               NOSSOS CLIENTES
             </Text>
@@ -111,19 +103,19 @@ export default function Clients() {
 
           <QuoteBlock
             index={1}
-            author="Gabriel Coelho"
+            author=""
             label="Prefeito de município brasileiro"
             quote={`Procurei a GreySpace em busca de orientação para um projeto que envolvia compras públicas. A equipe da consultoria foi extremamente atenciosa e nos apresentou o conceito de paradiplomacia, nos guiando durante todo o processo que foi fundamental para realizarmos as compras que necessitávamos.`}
           />
           <QuoteBlock
             index={2}
-            author="Gabriel Coelho"
+            author=""
             label="Empresário da área de materiais de construção"
             quote={`Somos uma empresa australiana do ramo petroquímico, produtora de resinas termoplásticas. Com o objetivo de entrar no mercado americano,  consultamos a GreySpace para fazer uma análise ambiental abrangente sobre os Estados Unidos, focada nos riscos políticos que poderíamos encontrar no país. A partir da análise feita pela empresa nos deu mais confiança e nosso projeto de abrir uma filial estrangeira foi bem sucedido.`}
           />
           <QuoteBlock
             index={3}
-            author="Gabriel Coelho"
+            author=""
             label="CEO de empresa da área de TI"
             quote={`A pandemia causada pela Covid-19 afetou consideravelmente a forma como nos comunicamos, trabalhamos e estudamos. Levando esse contexto em consideração e buscando desenvolver nossa empresa para nos adequarmos às novas demandas, entramos em contato com a GreySpace e adquirimos o "Country Risk Profiles", com interesse na análise sobre segurança cibernética. O resultado foi muito satisfatório e serviu de base para a criação de um plano de estratégias para nossa empresa nos próximos anos.`}
           />

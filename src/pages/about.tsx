@@ -8,6 +8,7 @@ export default function About() {
     <div>
       <Head>
         <title>Greyspace Consulting Group | About</title>
+        <link rel="icon" href="/logo-white.ico" />
       </Head>
 
       <div>
@@ -30,7 +31,6 @@ export default function About() {
               fontWeight="semibold"
               pb="4"
               borderStyle="double"
-              // borderColor="blue.600"
             >
               SOBRE A GREYSPACE
             </Text>

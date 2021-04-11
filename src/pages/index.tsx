@@ -13,11 +13,9 @@ import {
 } from '@chakra-ui/react'
 import Head from 'next/head'
 import Header from '../components/Header'
-import { GoLocation } from 'react-icons/go'
-import { AiFillEnvironment, AiFillPushpin, AiFillPhone } from 'react-icons/ai'
-import NavBarContainer from '../components/NavbarContainer'
 import LocationCard from '../components/LocationCard'
 import Footer from '../components/Footer'
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   return (
@@ -39,13 +37,12 @@ export default function Home() {
           position="relative"
         >
           <VStack w="full">
-            {/* <NavBarContainer>MENU</NavBarContainer> */}
             <Header />
             <Center flexDir="column" height="full" textAlign="center">
               <Text
                 color={'white'}
                 fontSize={{ base: '2xl', md: '5xl' }}
-                marginTop={{ base: '0', md: '-8rem !important' }}
+                marginTop={{ base: '0', md: '-2rem !important', lg: '-4rem !important' }}
                 borderBottom="4px"
                 borderTop="4px"
                 p="2"
@@ -76,6 +73,17 @@ export default function Home() {
               palavras, buscamos fugir de soluções prontas para problemas
               complexos.
             </Text>
+
+            <Divider my="8" />
+
+            <Flex justifyContent="center">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=Qt2g5UrUhO0"
+                controls
+              />
+            </Flex>
+
+            <Divider my="8" />
 
             <Text
               fontSize={{ base: 'xl', md: '3xl' }}
@@ -158,6 +166,16 @@ export default function Home() {
                 Inscrever-se
               </Button>
             </Flex>
+
+            <Divider my="8" />
+
+            <Flex align="center" justifyContent="center" mb="4">
+              <Image src="/images/listen-spotify.png" />
+              <Text ml="4">
+                Clique no ícone ao lado para acessar as informações semanais em
+                formato de podcast pelo Spotify.
+              </Text>
+            </Flex>
           </Container>
         </VStack>
 
@@ -166,10 +184,3 @@ export default function Home() {
     </div>
   )
 }
-
-// AiOutlineEnvironment
-// GoLocation
-
-// AiFillPushpin
-// AiFillPhone
-//

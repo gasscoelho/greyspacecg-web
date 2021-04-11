@@ -34,7 +34,7 @@ export default function QuoteBlock({ index = 0, quote, author, label }) {
           </Box>
         </Flex>
         <Flex flexDir="column" mt="4" pr="10" align="flex-end">
-          <Text fontWeight="medium">{author}</Text>
+          {/* <Text fontWeight="medium">{author}</Text> */}
 
           <Text fontWeight="light" fontSize="sm" textAlign="end" fontStyle="italic">
             {label}

@@ -5,7 +5,6 @@ import {
   Container,
   Divider,
   Box,
-  SimpleGrid,
   Input,
   Select,
   Textarea,
@@ -17,10 +16,8 @@ import Head from 'next/head'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import {
-  AiFillPushpin,
   AiFillEnvironment,
   AiFillPhone,
-  AiFillMail,
   AiFillClockCircle
 } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
@@ -30,16 +27,11 @@ export default function Contact() {
     <div>
       <Head>
         <title>Greyspace Consulting Group | Contact</title>
+        <link rel="icon" href="/logo-white.ico" />
       </Head>
 
       <div>
-        <Flex
-          // backgroundImage={'url(images/compressed.jpg)'}
-          // backgroundSize={'cover'}
-          // backgroundPosition={'top'}
-          background="white"
-          boxShadow="md"
-        >
+        <Flex background="white" boxShadow="md">
           <Header invertColors />
         </Flex>
 
@@ -52,7 +44,6 @@ export default function Contact() {
               fontWeight="semibold"
               pb="4"
               borderStyle="double"
-              // borderColor="blue.600"
             >
               CONTATE-NOS
             </Text>
@@ -68,8 +59,6 @@ export default function Contact() {
 
             <Grid
               mt="8"
-              // templateRows="repeat(1, 1fr)"
-              // templateColumns="1fr 1fr auto 1fr"
               templateRows={{ base: 'auto 1fr', md: 'repeat(1, 1fr)' }}
               templateColumns={{ base: '1fr 1fr', md: '1fr auto 1fr 1fr' }}
             >
@@ -130,7 +119,6 @@ export default function Contact() {
 
               <GridItem colSpan={1} display={{ base: 'none', md: 'block' }}>
                 <Divider mx="4" orientation="vertical" />
-                {/* <Text>teds</Text> */}
               </GridItem>
 
               <GridItem colSpan={2}>
@@ -180,7 +168,6 @@ export default function Contact() {
                 </VStack>
               </GridItem>
             </Grid>
-            {/*    <SimpleGrid mt="12" columns={{ sm: 2, xl: 3 }} spacing="6"> */}
           </Container>
         </VStack>
 

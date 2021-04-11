@@ -8,16 +8,11 @@ export default function Team() {
     <div>
       <Head>
         <title>Greyspace Consulting Group | Our Team</title>
+        <link rel="icon" href="/logo-white.ico" />
       </Head>
 
       <div>
-        <Flex
-          // backgroundImage={'url(images/compressed.jpg)'}
-          // backgroundSize={'cover'}
-          // backgroundPosition={'top'}
-          background="white"
-          boxShadow="md"
-        >
+        <Flex background="white" boxShadow="md">
           <Header invertColors />
         </Flex>
 
@@ -30,7 +25,6 @@ export default function Team() {
               fontWeight="semibold"
               pb="4"
               borderStyle="double"
-              // borderColor="blue.600"
             >
               NOSSA EQUIPE
             </Text>
