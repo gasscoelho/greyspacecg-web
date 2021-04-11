@@ -1,5 +1,14 @@
-import { Box, Flex, Stack } from '@chakra-ui/react'
+import {
+  Box,
+  Flex,
+  Menu,
+  MenuButton,
+  MenuList,
+  Stack,
+  MenuItem as MenuItemChakra
+} from '@chakra-ui/react'
 import Link from 'next/link'
+import { FiChevronDown } from 'react-icons/fi'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import Logo from './Logo'
@@ -14,7 +23,7 @@ export default function Header({ invertColors = false }, props) {
   return (
     <NavBarContainer {...props} color={invertColors ? 'black' : 'white'}>
       <Link href="/">
-        <Flex align="center" cursor="pointer">
+        <Flex align="center" cursor="pointer" mb="4">
           <Logo dark={!invertColors} />
         </Flex>
       </Link>
@@ -37,14 +46,55 @@ export default function Header({ invertColors = false }, props) {
           pt={[4, 4, 0, 0]}
           fontSize={{ base: 'sm', md: 'md' }}
         >
+          <MenuItem to="/" invertColor active={router.pathname === '/'}>
+            INÍCIO
+          </MenuItem>
           <MenuItem to="/about" active={router.pathname === '/about'}>
             SOBRE
           </MenuItem>
-          <MenuItem to="/" active={router.pathname === '/services'}>SERVIÇOS E PRODUTOS</MenuItem>
-          <MenuItem to="/" active={router.pathname === '/cases'}>CASES</MenuItem>
-          <MenuItem to="/team" active={router.pathname === '/team'}>NOSSA EQUIPE</MenuItem>
-          <MenuItem to="/clients" active={router.pathname === '/clients'}>NOSSOS CLIENTES</MenuItem>
-          <MenuItem to="/contact" active={router.pathname === '/contact'}>CONTATO</MenuItem>
+          <MenuItem to="/" active={router.pathname === '/services'}>
+            SERVIÇOS E PRODUTOS
+          </MenuItem>
+          <MenuItem to="/" active={router.pathname === '/cases'}>
+            CASES
+          </MenuItem>
+          <MenuItem to="/team" active={router.pathname === '/team'}>
+            NOSSA EQUIPE
+          </MenuItem>
+          <MenuItem to="/clients" active={router.pathname === '/clients'}>
+            NOSSOS CLIENTES
+          </MenuItem>
+          <MenuItem to="/contact" active={router.pathname === '/contact'}>
+            CONTATO
+          </MenuItem>
+          <Box>
+            <Menu>
+              <MenuButton
+                // border="1px solid red"
+                // px={4}
+                py={2}
+                marginTop="-4px !important"
+                transition="all 0.2s"
+                // _hover={{ bg: 'gray.400' }}
+                // _expanded={{ bg: 'blue.400' }}
+                _focus={{ boxShadow: 'none' }}
+                // borderRadius="md"
+                // borderWidth="1px"
+              >
+                <Flex align="center">
+                  PT - BR{' '}
+                  <Box ml="1">
+                    <FiChevronDown size={18} />
+                  </Box>
+                </Flex>
+              </MenuButton>
+              <MenuList color="black">
+                <MenuItemChakra>EN - US</MenuItemChakra>
+                <MenuItemChakra>日本語</MenuItemChakra>
+                <MenuItemChakra>درباره ما</MenuItemChakra>
+              </MenuList>
+            </Menu>
+          </Box>
         </Stack>
       </Box>
     </NavBarContainer>

@@ -6,6 +6,7 @@ export default function MenuItem({
   isLast = false,
   to = '/',
   active = false,
+  invertColor = false,
   ...rest
 }) {
   return (
@@ -18,7 +19,7 @@ export default function MenuItem({
         borderBottom={active ? '2px' : 'none'}
         fontWeight={active ? 'medium' : 'normal'}
         pb="1"
-        borderColor="gray.900"
+        borderColor={invertColor ? 'white' : 'gray.900'}
         {...rest}
       >
         {children}
