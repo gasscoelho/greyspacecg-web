@@ -7,8 +7,7 @@ export default function Team() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Greyspace Consulting Group | Our Team</title>
       </Head>
 
       <div>

@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Greyspace Consulting Group</title>
+        <link rel="icon" href="/logo-white.ico" />
       </Head>
 
       <main>

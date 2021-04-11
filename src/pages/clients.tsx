@@ -11,8 +11,7 @@ export default function Clients() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Greyspace Consulting Group | Our Clients</title>
       </Head>
 
       <div>

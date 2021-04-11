@@ -7,8 +7,7 @@ export default function About() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Greyspace Consulting Group | About</title>
       </Head>
 
       <div>
