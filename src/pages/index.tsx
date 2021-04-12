@@ -52,15 +52,17 @@ export default function Home() {
                 p="2"
                 mb="4"
                 borderStyle="double"
-                // fontWeight="bold"
+                fontFamily="Lora"
+                fontWeight="semibold"
               >
                 GREYSPACE CONSULTING GROUP
               </Text>
               <Text
                 color={'white'}
                 fontSize={{ base: 'lg', md: '2xl' }}
-                fontWeight={'normal'}
+                fontWeight={'semibold'}
                 pb="4"
+                fontFamily="Lora"
               >
                 VÁ ALÉM. PENSE GREY.
               </Text>
