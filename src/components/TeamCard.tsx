@@ -17,7 +17,8 @@ export default function TeamCard({
   profilePath,
   name,
   position,
-  description
+  description,
+  imagePosition = 'top'
 }) {
   return (
     <Flex flexDir="column" align="center">
@@ -39,7 +40,7 @@ export default function TeamCard({
               src={profilePath}
               borderRadius="full"
               objectFit="cover"
-              objectPosition="center"
+              objectPosition={imagePosition}
               alt="profile"
               width={{ base: '150px', md: '200px' }}
               height={{ base: '150px', md: '200px' }}

@@ -105,19 +105,33 @@ export default function Clients() {
             index={1}
             author=""
             label="Prefeito de município brasileiro"
-            quote={`Procurei a GreySpace em busca de orientação para um projeto que envolvia compras públicas. A equipe da consultoria foi extremamente atenciosa e nos apresentou o conceito de paradiplomacia, nos guiando durante todo o processo que foi fundamental para realizarmos as compras que necessitávamos.`}
+            quote={[
+              'Procurei a ',
+              <b>GreySpace</b>,
+              ' em busca de orientação para um projeto que envolvia compras públicas. A equipe da consultoria foi extremamente atenciosa e nos apresentou o conceito de paradiplomacia, nos guiando durante todo o processo que foi fundamental para realizarmos as compras que necessitávamos.'
+            ]}
           />
           <QuoteBlock
             index={2}
             author=""
             label="Empresário da área de materiais de construção"
-            quote={`Somos uma empresa australiana do ramo petroquímico, produtora de resinas termoplásticas. Com o objetivo de entrar no mercado americano,  consultamos a GreySpace para fazer uma análise ambiental abrangente sobre os Estados Unidos, focada nos riscos políticos que poderíamos encontrar no país. A partir da análise feita pela empresa nos deu mais confiança e nosso projeto de abrir uma filial estrangeira foi bem sucedido.`}
+            quote={[
+              'Somos uma empresa australiana do ramo petroquímico, produtora de resinas termoplásticas. Com o objetivo de entrar no mercado americano, consultamos a ',
+              <b>GreySpace</b>,
+              ' para fazer uma análise ambiental abrangente sobre os Estados Unidos, focada nos riscos políticos que poderíamos encontrar no país. A análise feita pela empresa nos deu mais confiança e nosso projeto de abrir uma filial estrangeira foi bem sucedido.'
+            ]}
           />
           <QuoteBlock
             index={3}
             author=""
             label="CEO de empresa da área de TI"
-            quote={`A pandemia causada pela Covid-19 afetou consideravelmente a forma como nos comunicamos, trabalhamos e estudamos. Levando esse contexto em consideração e buscando desenvolver nossa empresa para nos adequarmos às novas demandas, entramos em contato com a GreySpace e adquirimos o "Country Risk Profiles", com interesse na análise sobre segurança cibernética. O resultado foi muito satisfatório e serviu de base para a criação de um plano de estratégias para nossa empresa nos próximos anos.`}
+            quote={[
+              'A pandemia causada pela Covid-19 afetou consideravelmente a forma como nos comunicamos, trabalhamos e estudamos. Levando esse contexto em consideração e buscando desenvolver nossa empresa para nos adequarmos às novas demandas, entramos em contato com a ',
+              <b>GreySpace</b>,
+              ' e adquirimos o ',
+              <b>Country Risk Index Report</b>,
+              ', com interesse na análise sobre segurança cibernética. O resultado foi muito satisfatório e serviu de base para a criação de um plano de estratégias para nossa empresa nos próximos anos.'
+            ]}
           />
         </VStack>
         <Footer />
