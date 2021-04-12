@@ -52,7 +52,7 @@ export default function Header({ invertColors = false }, props) {
           <MenuItem to="/about" active={router.pathname === '/about'}>
             SOBRE
           </MenuItem>
-          <MenuItem to="/" active={router.pathname === '/services'}>
+          <MenuItem to="/services-and-products" active={router.pathname === '/services-and-products'}>
             SERVIÇOS E PRODUTOS
           </MenuItem>
           <MenuItem to="/" active={router.pathname === '/cases'}>
