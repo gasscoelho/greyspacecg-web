@@ -50,7 +50,7 @@ export default function Team() {
               A diversidade é um elemento fundamental para nós
             </Text>
 
-            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="center">
+            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="center" lineHeight="8">
               Nossa consultoria é formada por especialistas de diversas faixas
               etárias, grupos étnicos e nacionalidades. A inclusão nos ajuda a
               crescer.
@@ -83,7 +83,7 @@ export default function Team() {
             />
             <TeamCard
               index={3}
-              profilePath="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              profilePath="https://consultoria279.webnode.com/_files/200000047-803a0803a2/450/WhatsApp%20Image%202021-04-11%20at%2018.27.48.jpeg"
               name="Luis Pedro Linhares"
               position="Analista sênior em políticas públicas"
               description="Graduado em Relações Internacionais pelo Centro Universitário de Brasília. Possui mestrado em Políticas Públicas pelo Science Politique Paris e mestrado em Future Studies pela Universidade de Turku na Finlândia. Seu doutorado é em Direito Europeu pelo Instituto Universitário Europeu na Itália. Realizou trabalhos na Comissão Europeia, como especialista técnico nas reformas estruturais dos Estados-Membros, além de ter sido professor de Relações Internacionais na Brussels School of Governance. Luis Pedro é analista sênior da GreySpace desde 2010, com foco em políticas públicas."

@@ -42,7 +42,11 @@ export default function Home() {
               <Text
                 color={'white'}
                 fontSize={{ base: '2xl', md: '5xl' }}
-                marginTop={{ base: '0', md: '-2rem !important', lg: '-4rem !important' }}
+                marginTop={{
+                  base: '0',
+                  md: '-2rem !important',
+                  lg: '-4rem !important'
+                }}
                 borderBottom="4px"
                 borderTop="4px"
                 p="2"
@@ -66,7 +70,7 @@ export default function Home() {
         {/* Content */}
         <VStack pb="150px" fontSize={{ base: 'md', md: 'lg' }}>
           <Container maxW={{ base: 'container.md', xl: 'container.lg' }} pb="8">
-            <Text py="8" textAlign="justify">
+            <Text py="8" textAlign="justify" lineHeight="8">
               A GreySpace surgiu em 2010 com o objetivo de analisar o cenário
               político internacional considerando as infinitas variáveis que
               existem entre o preto e o branco: o espaço cinza. Em outras
@@ -74,13 +78,10 @@ export default function Home() {
               complexos.
             </Text>
 
-            <Divider my="8" />
+            <Divider mb="8" />
 
             <Flex justifyContent="center">
-              <ReactPlayer
-                url="https://vimeo.com/535616238"
-                controls
-              />
+              <ReactPlayer url="https://vimeo.com/535616238" controls />
             </Flex>
 
             <Divider my="8" />
@@ -146,7 +147,7 @@ export default function Home() {
               NewsGrey: inscreva-se em nossa newsletter
             </Text>
 
-            <Text mt="2" textAlign="center">
+            <Text mt="2" textAlign="center" lineHeight="8">
               Receba semanalmente uma análise das notícias mais importantes no
               cenário nacional e internacional. A nossa newsletter é um
               informativo para todos que desejam ter acesso a uma pequena
@@ -171,7 +172,7 @@ export default function Home() {
 
             <Flex align="center" justifyContent="center" mb="4">
               <Image src="/images/listen-spotify.png" />
-              <Text ml="4">
+              <Text ml="4" lineHeight="8">
                 Clique no ícone ao lado para acessar as informações semanais em
                 formato de podcast pelo Spotify.
               </Text>

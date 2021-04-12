@@ -39,7 +39,7 @@ export default function TeamCard({
               src={profilePath}
               borderRadius="full"
               objectFit="cover"
-              objectPosition="top"
+              objectPosition="center"
               alt="profile"
               width={{ base: '150px', md: '200px' }}
               height={{ base: '150px', md: '200px' }}
@@ -68,7 +68,7 @@ export default function TeamCard({
             >
               {position}
             </Text>
-            <Text mt="4" textAlign="justify">
+            <Text mt="4" textAlign="justify" lineHeight="8">
               {description}
             </Text>
           </Flex>

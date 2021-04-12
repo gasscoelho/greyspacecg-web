@@ -23,7 +23,11 @@ export default function About() {
         </Flex>
 
         <VStack mt="8" w="full" pb="150px">
-          <Container maxW={{ base: 'container.md', xl: 'container.lg' }} pb="8">
+          <Container
+            maxW={{ base: 'container.md', xl: 'container.lg' }}
+            pb="8"
+            textAlign="justify"
+          >
             <Text
               borderBottom="4px"
               textAlign="center"
@@ -43,11 +47,11 @@ export default function About() {
             >
               NOSSA MISSÃO
             </Text>
-            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="start">
+            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} lineHeight="8">
               Desenvolver e produzir análises abrangentes e precisas do cenário
               político nacional e internacional sem se limitar pelo simplismo do
               mercado. Oferecendo soluções de forma holística para problemas
-              políticos complexos de forma efetiva buscando inserir a
+              políticos complexos de forma efetiva, buscando inserir a
               sustentabilidade em todos os aspectos do nosso trabalho.
             </Text>
 
@@ -61,7 +65,7 @@ export default function About() {
             >
               NOSSA VISÃO
             </Text>
-            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="start">
+            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} lineHeight="8">
               Ser referência em análises da política mundial fazendo uso de
               abordagens multidisciplinares e inovadoras, melhorando o
               desempenho de nossos clientes. Oferecer aos nossos clientes uma
@@ -79,7 +83,7 @@ export default function About() {
             >
               NOSSOS VALORES
             </Text>
-            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="start">
+            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} lineHeight="8">
               Inclusão, diversidade, acessibilidade, privacidade, inovação,
               liderança, responsabilidade, integridade, colaboração,
               sustentabilidade e comprometimento.
@@ -95,7 +99,7 @@ export default function About() {
             >
               NOSSA EXPERTISE
             </Text>
-            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="start">
+            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} lineHeight="8">
               Nosso time de especialistas em política internacional consegue
               unir, dimensionar e construir soluções eficazes e de impacto, que
               atendem desde entes subnacionais até países de destaque no cenário
@@ -103,7 +107,7 @@ export default function About() {
               <b>GreySpace Consulting Group</b> consegue solucionar problemas
               dos entes públicos e privados, através de uma análise comparada,
               que combina interdisciplinaridade, políticas internacionais,
-              sistematização pragmática e metodologias qualitativas e
+              sistematização abrangente e metodologias qualitativas e
               quantitativas, em cooperação com uma rica base de dados através de
               uma inteligência artificial de ponta: nosso querido Joe. Nesse
               mundo, nos propomos a entregar os melhores resultados a partir de

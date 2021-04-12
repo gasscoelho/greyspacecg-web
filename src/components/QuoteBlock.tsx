@@ -23,7 +23,7 @@ export default function QuoteBlock({ index = 0, quote, author, label }) {
               color={index % 2 === 0 ? '#000' : '#6c757d'}
             />
           </Box>
-          <Text flex="1" px="4" textAlign="justify">
+          <Text flex="1" px="4" textAlign="justify" lineHeight="8">
             {quote}
           </Text>
           <Box mt="auto">

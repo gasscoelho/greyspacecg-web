@@ -66,9 +66,9 @@ export default function Contact() {
                 <VStack
                   spacing="4"
                   align="flex-start"
-                  justifyContent={{ base: 'flex-start', md: 'center' }}
+                  justifyContent={{ base: 'flex-start', md: 'flex-start' }}
                   h="full"
-                  mt={{ base: '8', md: '-4' }}
+                  mt={{ base: '8', md: '2' }}
                   mb={{ base: '8', md: '0' }}
                   fontSize={{ base: 'sm', md: 'md' }}
                 >
