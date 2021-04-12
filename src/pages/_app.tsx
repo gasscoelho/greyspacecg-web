@@ -1,6 +1,7 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
+import { appWithTranslation } from 'next-i18next'
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   const theme = {
     styles: {
       global: {
@@ -17,6 +18,7 @@ function MyApp({ Component, pageProps }) {
     }
   }
   const customTheme = extendTheme(theme)
+
   return (
     <ChakraProvider theme={customTheme}>
       <Component {...pageProps} />
@@ -24,4 +26,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default appWithTranslation(MyApp)

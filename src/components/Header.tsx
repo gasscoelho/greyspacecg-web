@@ -16,9 +16,35 @@ import MenuItem from './MenuItem'
 import MenuToggleButton from './MenuToggleButton'
 import NavBarContainer from './NavbarContainer'
 
+interface Locale {
+  name: string
+  code: string
+}
+
 export default function Header({ invertColors = false }, props) {
   const [show, setShow] = useState(false)
   const router = useRouter()
+  const [locales, setLocales] = useState<Locale[]>([
+    {
+      name: 'PT - BR',
+      code: 'pt'
+    },
+    {
+      name: 'EN - US',
+      code: 'en-US'
+    },
+    {
+      name: '日本語',
+      code: 'ja-JP'
+    },
+    {
+      name: 'درباره ما',
+      code: 'fa-IR'
+    }
+  ])
+  const [selectedLocale, setSelectedLocale] = useState<Locale>(() => {
+    return locales.find(l => l.code === router.locale)
+  })
 
   return (
     <NavBarContainer {...props} color={invertColors ? 'black' : 'white'}>
@@ -52,7 +78,10 @@ export default function Header({ invertColors = false }, props) {
           <MenuItem to="/about" active={router.pathname === '/about'}>
             SOBRE
           </MenuItem>
-          <MenuItem to="/services-and-products" active={router.pathname === '/services-and-products'}>
+          <MenuItem
+            to="/services-and-products"
+            active={router.pathname === '/services-and-products'}
+          >
             SERVIÇOS E PRODUTOS
           </MenuItem>
           <MenuItem to="/" active={router.pathname === '/cases'}>
@@ -82,16 +111,32 @@ export default function Header({ invertColors = false }, props) {
                 // borderWidth="1px"
               >
                 <Flex align="center">
-                  PT - BR{' '}
+                  {selectedLocale.name}{' '}
                   <Box ml="1">
                     <FiChevronDown size={18} />
                   </Box>
                 </Flex>
               </MenuButton>
               <MenuList color="black">
-                <MenuItemChakra>EN - US</MenuItemChakra>
-                <MenuItemChakra>日本語</MenuItemChakra>
-                <MenuItemChakra>درباره ما</MenuItemChakra>
+                {locales.map(locale => (
+                  <MenuItemChakra
+                    key={locale.code}
+                    onClick={() => {
+                      let index = locales.indexOf(locale)
+                      let auxLocales = locales
+                      auxLocales[index] = selectedLocale
+
+                      setLocales(auxLocales)
+                      setSelectedLocale(locale)
+
+                      router.push(router.pathname, router.pathname, {
+                        locale: locale.code
+                      })
+                    }}
+                  >
+                    {locale.name}
+                  </MenuItemChakra>
+                ))}
               </MenuList>
             </Menu>
           </Box>
