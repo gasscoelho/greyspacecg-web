@@ -19,7 +19,7 @@ function ServiceInfo({ children, iconPath, name, description, ...props }) {
         <Text fontSize={{ base: 'xl', md: '2xl' }} fontWeight="medium">
           {name}
         </Text>
-        <Text fontWeight="light" mb={description ? '4' : '0'}>
+        <Text fontWeight="semibold" mb={description ? '4' : '0'}>
           {description}
         </Text>
 
