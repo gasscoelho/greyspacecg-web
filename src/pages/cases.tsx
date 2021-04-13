@@ -161,14 +161,14 @@ export default function Cases() {
 
             <Content
               title="A Abordagem"
-              description="Após algumas reuniões foram delineadas alguns aspectos importantes para o relatório, de acordo com as necessidades do cliente. Montamos um grupo de trabalho com analistas selecionados para que cada uma das necessidades previamente apresentadas fosse sanada. Foram feitas pesquisas de políticas públicas de cada país gerenciadas pelo especialista da área geográfica...."
+              description="Após algumas reuniões foram delineadas alguns aspectos importantes para o relatório, de acordo com as necessidades do cliente. Montamos um grupo de trabalho com analistas selecionados para que cada uma das necessidades previamente apresentadas fosse sanada. Foram feitas pesquisas de políticas públicas de cada país, gerenciadas pelo especialista da área geográfica, chegando a um relatório final que visa auxiliar o cliente em uma nova estratégia de atuação."
             />
 
             <Divider my="8" />
 
             <Content
               title="O resultado"
-              description="A Grey Space entregou um relatório completo e preciso de acordo com"
+              description="A GreySpace entregou um relatório completo e preciso, que foi o guia para o nosso cliente no momento da pandemia. A partir dele foi possível minimizar os riscos apresentados pela COVID-19 e a empresa continua o utilizando de base para seus novos passos. O relatório foi feito de acordo com as necessidades específicas do cliente e não será divulgado em nosso site para manter a privacidade do mesmo."
             />
           </Container>
         </VStack>

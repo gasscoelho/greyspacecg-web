@@ -74,7 +74,7 @@ export default function Team() {
 
             <TeamCard
               index={1}
-              profilePath="https://consultoria279.webnode.com/_files/200000050-def68def6a/450/WhatsApp%20Image%202021-04-12%20at%2011.15.52-4.jpeg"
+              profilePath="https://consultoria279.webnode.com/_files/200000056-70a6a70a6c/450/WhatsApp%20Image%202021-04-12%20at%2011.15.52-2.jpeg"
               name="Bruna Luiza de Oliveira"
               position="Presidente e especialista em segurança e negociação"
               description="Graduada em Relações Internacionais pelo Centro Universitário de Brasília. Trabalhou durante muitos anos junto a organizações da sociedade civil da área socioambiental, sendo que durante 3 anos foi diretora de parcerias e advocacy do EngajaMundo. Durante esse período realizou um MBA em Negociação Internacional pela International Business School em Londres. Possui mestrado em Gestão de Conflitos Interculturais pela Alice Salomon University of Applied Sciences, em Berlim, Alemanha. Atuou como oficial de Gênero e Raça no Escritório das Nações Unidas sobre Drogas e Crimes - UNODC, terminando seu doutorado em Gestão integrada de conflitos: mediação, segurança e Coexistência direcionado ao conflito de Drogas e criminologia pela Pegasus University of Italy. Bruna é presidente da GreySpace desde 2010, trabalhando também nas áreas de segurança e negociação."
@@ -96,7 +96,7 @@ export default function Team() {
             />
             <TeamCard
               index={4}
-              profilePath="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              profilePath="https://consultoria279.webnode.com/_files/200000054-2da042da07/450/WhatsApp%20Image%202021-04-12%20at%2020.19.59%20(1).jpeg"
               name="Maria Eduarda Freitas"
               position="Especialista em gestão pública e política nacional"
               description="Graduada em Relações Internacionais pelo Centro Universitário de Brasília. Possui mestrado em Políticas Públicas pela National University of Singapore e PhD em Brazilian Studies pela Brown University. Possui MBA de Global Executive pela University of Sydney. Participou do programa de estágio de verão da Goldman Sachs em Nova York e de uma breve experiência na área de políticas públicas no escritório da BMJ em São Paulo. Realizou trabalhos na Embaixada do Brasil em Washigton, D.C. Desde 2010 é especialista em gestão pública e política brasileira na GreySpace Consulting Group."
