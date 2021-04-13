@@ -119,7 +119,7 @@ export default function Cases() {
             <Divider my="8" />
 
             <Content
-              title="A Abordagem"
+              title="A abordagem"
               description="Nosso time especialista em meio ambiente fez uma primeira análise, prevendo os resultados futuros da utilização de energia solar em prédios públicos. Foi levado em consideração a funcionalidade além do valor de instalação. Para que houvesse precisão nos dados, o primeiro passo foi listar todas as propriedades que seriam atingidas pelo projeto de energia renovável. Criando grupos de prioridade e possível ordem de instalação. Posteriormente, nossos analistas elaboraram um relatório dos custos iniciais, a partir de um estudo realizado entre diferentes empresas de fornecimento do material necessário, prevendo em quanto tempo o valor inicial investido se transformaria em economia para o governo."
             />
 
@@ -160,7 +160,7 @@ export default function Cases() {
             <Divider my="8" />
 
             <Content
-              title="A Abordagem"
+              title="A abordagem"
               description="Após algumas reuniões foram delineadas alguns aspectos importantes para o relatório, de acordo com as necessidades do cliente. Montamos um grupo de trabalho com analistas selecionados para que cada uma das necessidades previamente apresentadas fosse sanada. Foram feitas pesquisas de políticas públicas de cada país, gerenciadas pelo especialista da área geográfica, chegando a um relatório final que visa auxiliar o cliente em uma nova estratégia de atuação."
             />
 
