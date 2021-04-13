@@ -52,14 +52,17 @@ export default function Home() {
                 p="2"
                 mb="4"
                 borderStyle="double"
+                fontFamily="Lora"
+                fontWeight="semibold"
               >
                 GREYSPACE CONSULTING GROUP
               </Text>
               <Text
                 color={'white'}
                 fontSize={{ base: 'lg', md: '2xl' }}
-                fontWeight={'normal'}
+                fontWeight={'semibold'}
                 pb="4"
+                fontFamily="Lora"
               >
                 VÁ ALÉM. PENSE GREY.
               </Text>
@@ -71,11 +74,16 @@ export default function Home() {
         <VStack pb="150px" fontSize={{ base: 'md', md: 'lg' }}>
           <Container maxW={{ base: 'container.md', xl: 'container.lg' }} pb="8">
             <Text py="8" textAlign="justify" lineHeight="8">
-              A GreySpace surgiu em 2010 com o objetivo de analisar o cenário
+              A GreySpace surgiu em 2010, com o objetivo de analisar o cenário
               político internacional considerando as infinitas variáveis que
               existem entre o preto e o branco: o espaço cinza. Em outras
               palavras, buscamos fugir de soluções prontas para problemas
-              complexos.
+              complexos a partir de métodos inovadores. Nosso time diversificado
+              é o nosso principal instrumento para transformar e reinventar os
+              modelos de gestão de negócios de nossos clientes, levando sua
+              performance para o mais alto nível possível e criando ambientes
+              focados em gerar resultados cada vez mais eficazes. Somos
+              futuristas e curiosos!
             </Text>
 
             <Divider mb="8" />

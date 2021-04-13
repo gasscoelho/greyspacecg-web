@@ -163,7 +163,7 @@ export default function Contact() {
                   </Flex>
 
                   <Button background="gray.700" p="6" color="white" size="md">
-                    Peça agora
+                    enviar
                   </Button>
                 </VStack>
               </GridItem>

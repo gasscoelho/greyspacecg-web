@@ -84,7 +84,7 @@ export default function Header({ invertColors = false }, props) {
           >
             SERVIÇOS E PRODUTOS
           </MenuItem>
-          <MenuItem to="/" active={router.pathname === '/cases'}>
+          <MenuItem to="/cases" active={router.pathname === '/cases'}>
             CASES
           </MenuItem>
           <MenuItem to="/team" active={router.pathname === '/team'}>

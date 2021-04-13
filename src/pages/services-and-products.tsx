@@ -29,7 +29,7 @@ export default function ServicesProducts() {
           <Header invertColors />
         </Flex>
 
-        <VStack mt="8" w="full" pb="150px">
+        <VStack mt="8" w="full" pb="150px" fontSize={{ base: 'md', md: 'lg' }}>
           <Container
             maxW={{ base: 'container.md', xl: 'container.lg' }}
             pb="8"
@@ -156,7 +156,7 @@ export default function ServicesProducts() {
 
             <ServiceInfo
               mt="8"
-              name="Gestão de crise"
+              name="Governance of Crisis"
               description="Oferecemos um serviço para auxiliar o cliente em um momento de grande vulnerabilidade de forma ágil, através do monitoramento e planejamento:"
               iconPath="/images/connectivity-icon.svg"
             >
@@ -286,7 +286,7 @@ export default function ServicesProducts() {
 
             <ServiceInfo
               mt="8"
-              name="Captação de recursos"
+              name="Consultancy to Finance Projects"
               description="Ao longo da nossa história fomos capazes de construir uma relação próxima e frutífera com organizações internacionais de financiamento para projetos de desenvolvimento, como PNUD, FMI, BIRD e outros bancos. Dessa forma, nos mantemos atualizados sobre editais e outras iniciativas disponíveis, visando atuar como ponte entre nosso cliente e tais instituições:"
               iconPath="/images/pork-icon.svg"
             >
@@ -349,7 +349,7 @@ export default function ServicesProducts() {
 
             <ServiceInfo
               mt="8"
-              name="Mapa de risco por país"
+              name="Country Risk Index Report"
               description="Análise de mais de 120 países, entre grandes, médias e pequenas economias."
               iconPath="/images/world-icon.svg"
             >
@@ -366,10 +366,7 @@ export default function ServicesProducts() {
                     height="22px"
                     mr="4"
                   />
-                  Perfil por países através do exame das seguintes categorias e
-                  estabelecendo notas de 0 a 10 para avaliar o desempenho dos
-                  países, tendo como referência as sugestões feitas por órgãos
-                  internacionais:
+                  Perfil por países através do exame das seguintes categorias:
                 </ListItem>
 
                 <ListItem
@@ -401,12 +398,7 @@ export default function ServicesProducts() {
                     ml="9"
                   />
                   Perfis dos principais membros do Executivo, Legislativo e
-                  Judiciário: sempre que há alguma mudança no quadro de
-                  liderança, nossa equipe elabora um perfil histórico do novo
-                  candidato/indivíduo incluindo; principais posicionamentos e
-                  atuações políticas; maiores realizações; alinhamento e apoio
-                  com outras figuras políticas. A fim que nossos clientes possam
-                  oferecer previsibilidade;
+                  Judiciário;
                 </ListItem>
                 <ListItem
                   display="flex"
@@ -420,12 +412,46 @@ export default function ServicesProducts() {
                     mr="4"
                     ml="9"
                   />
-                  Questões transacionais como: comércio, segurança, mudanças
-                  climáticas e questões ambientais, segurança cibernética,
-                  movimentos sociais e saúde global - com o auxílio do Joe,
-                  conseguimos indicar os números do crescimento da COVID-19 e
-                  mapear as melhores políticas implementadas pelos países ao
-                  longo do tempo;
+                  Sempre que há alguma mudança no quadro de liderança, nossa
+                  equipe elabora um perfil histórico do novo
+                  candidato/indivíduo, incluindo: principais posicionamentos e
+                  atuações políticas, maiores realizações, alinhamento e apoio
+                  com outras figuras políticas. Buscamos traçar um perfil com
+                  previsões acerca das possíveis decisões que esse indivíduo
+                  possa tomar.
+                </ListItem>
+                <ListItem
+                  display="flex"
+                  alignItems="flex-start"
+                  justifyContent="flex-start"
+                >
+                  <ListIcon
+                    as={HiOutlineChevronDoubleRight}
+                    width="22px"
+                    height="22px"
+                    mr="4"
+                  />
+                  Estabelecemos notas de 0 a 10 para avaliar o desempenho dos
+                  países, tendo como referência as melhores práticas apontadas
+                  por órgãos internacionais, em questões transnacionais como:
+                </ListItem>
+                <ListItem
+                  display="flex"
+                  alignItems="flex-start"
+                  justifyContent="flex-start"
+                >
+                  <ListIcon
+                    as={HiOutlineChevronDoubleRight}
+                    width="22px"
+                    height="22px"
+                    mr="4"
+                    ml="9"
+                  />
+                  Comércio, segurança, mudanças climáticas e questões
+                  ambientais, segurança cibernética, movimentos sociais e saúde
+                  global - com o auxílio do Joe conseguimos indicar os números
+                  referentes à disseminação da COVID-19 e mapear as melhores
+                  políticas que os países realizaram ao longo do tempo.
                 </ListItem>
                 <ListItem
                   display="flex"
@@ -440,9 +466,9 @@ export default function ServicesProducts() {
                   />
                   Oferecemos ainda uma análise mais acurada para aqueles
                   clientes que possuem interesse específico no Brasil.
-                  Analisamos o cenário brasileiro e como ele se insere dentro de
-                  um contexto internacional e como foram as respostas ao mesmo
-                  problema comparada a outros países:
+                  Analisamos o cenário brasileiro, como ele se insere dentro de
+                  um contexto internacional e quais foram as respostas ao mesmo
+                  problema em comparação com outros países:
                 </ListItem>
                 <ListItem
                   display="flex"
@@ -466,7 +492,7 @@ export default function ServicesProducts() {
 
             <ServiceInfo
               mt="8"
-              name="Superintendence consultancy"
+              name="Performance Analysis Report"
               description=""
               iconPath="/images/sign-icon.svg"
             >

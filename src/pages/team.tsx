@@ -50,7 +50,12 @@ export default function Team() {
               A diversidade é um elemento fundamental para nós
             </Text>
 
-            <Text mt="2" fontSize={{ base: 'md', md: 'lg' }} textAlign="center" lineHeight="8">
+            <Text
+              mt="2"
+              fontSize={{ base: 'md', md: 'lg' }}
+              textAlign="center"
+              lineHeight="8"
+            >
               Nossa consultoria é formada por especialistas de diversas faixas
               etárias, grupos étnicos e nacionalidades. A inclusão nos ajuda a
               crescer.
@@ -69,14 +74,14 @@ export default function Team() {
 
             <TeamCard
               index={1}
-              profilePath="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              profilePath="https://consultoria279.webnode.com/_files/200000056-70a6a70a6c/450/WhatsApp%20Image%202021-04-12%20at%2011.15.52-2.jpeg"
               name="Bruna Luiza de Oliveira"
               position="Presidente e especialista em segurança e negociação"
-              description="Graduada em Relações Internacionais pelo Centro Universitário de Brasília. Trabalhou durante muitos anos junto a organizações da sociedade civil da área socioambiental, sendo que durante 3 anos foi diretora de parcerias e advocacy do EngajaMundo. Durante esse período realizou um MBA em Negociação Internacional pela International Business School em Londres. Possui mestrado em Gestão de Conflitos Interculturais pela Alice Salomon University of Applied Sciences, em Berlim, Alemanha. Atuou como oficial de Gênero e Raça no Escritório das Nações Unidas sobre Drogas e Crimes - UNODC, terminando seu doutorado em Gestão integrada de conflitos: mediação, segurança e Coexistência direcionado ao conflito de Drogas e criminologia pela Pegasus University of Italy."
+              description="Graduada em Relações Internacionais pelo Centro Universitário de Brasília. Trabalhou durante muitos anos junto a organizações da sociedade civil da área socioambiental, sendo que durante 3 anos foi diretora de parcerias e advocacy do EngajaMundo. Durante esse período realizou um MBA em Negociação Internacional pela International Business School em Londres. Possui mestrado em Gestão de Conflitos Interculturais pela Alice Salomon University of Applied Sciences, em Berlim, Alemanha. Atuou como oficial de Gênero e Raça no Escritório das Nações Unidas sobre Drogas e Crimes - UNODC, terminando seu doutorado em Gestão integrada de conflitos: mediação, segurança e Coexistência direcionado ao conflito de Drogas e criminologia pela Pegasus University of Italy. Bruna é presidente da GreySpace desde 2010, trabalhando também nas áreas de segurança e negociação."
             />
             <TeamCard
               index={2}
-              profilePath="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              profilePath="https://consultoria279.webnode.com/_files/200000053-4c31f4c322/450/WhatsApp%20Image%202021-04-12%20at%2014.32.17.jpeg"
               name="Karoline Ferreira"
               position="Diretora executiva e especialista em meio ambiente"
               description="Graduada em Relações Internacionais pelo Centro Universitário de Brasília. Possui mestrado em Gestão Internacional com ênfase na Gestão Ambiental pela Steinbeis University Berlin. É PhD em Ciência Ambiental, Política e Gestão pela Hong Kong University of Science and Technology. Participou do Programa de Doutoramento Internacional para a Ciência e Tecnologia Ambiental da National Central University, em Taiwan. Já realizou trabalhos para o Programa das Nações Unidas para o Meio Ambiente (PNUMA) e outras ONGs ambientais, como a WWF e a SOS Mata Atlântica. Desde 2010 atua como Diretora Executiva e é a principal especialista em meio ambiente e políticas ambientais da GreySpace Consulting Group."
@@ -84,23 +89,29 @@ export default function Team() {
             <TeamCard
               index={3}
               profilePath="https://consultoria279.webnode.com/_files/200000047-803a0803a2/450/WhatsApp%20Image%202021-04-11%20at%2018.27.48.jpeg"
+              imagePosition="center"
               name="Luis Pedro Linhares"
-              position="Analista sênior em políticas públicas"
-              description="Graduado em Relações Internacionais pelo Centro Universitário de Brasília. Possui mestrado em Políticas Públicas pelo Science Politique Paris e mestrado em Future Studies pela Universidade de Turku na Finlândia. Seu doutorado é em Direito Europeu pelo Instituto Universitário Europeu na Itália. Realizou trabalhos na Comissão Europeia, como especialista técnico nas reformas estruturais dos Estados-Membros, além de ter sido professor de Relações Internacionais na Brussels School of Governance. Luis Pedro é analista sênior da GreySpace desde 2010, com foco em políticas públicas."
+              position="Analista sênior em políticas públicas comparadas"
+              description="Graduado em Relações Internacionais pelo Centro Universitário de Brasília. Possui mestrado em Políticas Públicas pelo Science Politique Paris e mestrado em Future Studies pela Universidade de Turku na Finlândia. Seu doutorado é em Direito Europeu pelo Instituto Universitário Europeu na Itália. Realizou trabalhos na Comissão Europeia, como especialista técnico nas reformas estruturais dos Estados-Membros, além de ter sido professor de Relações Internacionais na Brussels School of Governance. Desde 2010, Luis Pedro é analista sênior em políticas públicas comparadas da GreySpace Consulting Group."
             />
             <TeamCard
               index={4}
-              profilePath="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              profilePath="https://consultoria279.webnode.com/_files/200000054-2da042da07/450/WhatsApp%20Image%202021-04-12%20at%2020.19.59%20(1).jpeg"
               name="Maria Eduarda Freitas"
               position="Especialista em gestão pública e política nacional"
-              description=""
+              description="Graduada em Relações Internacionais pelo Centro Universitário de Brasília. Possui mestrado em Políticas Públicas pela National University of Singapore e PhD em Brazilian Studies pela Brown University. Possui MBA de Global Executive pela University of Sydney. Participou do programa de estágio de verão da Goldman Sachs em Nova York e de uma breve experiência na área de políticas públicas no escritório da BMJ em São Paulo. Realizou trabalhos na Embaixada do Brasil em Washigton, D.C. Desde 2010 é especialista em gestão pública e política brasileira na GreySpace Consulting Group."
             />
             <TeamCard
               index={5}
               profilePath="https://consultoria279.webnode.com/_files/200000015-8157b8157d/450/WhatsApp%20Image%202021-04-09%20at%2011.17.12.png"
               name="Joe"
               position="Inteligência Artificial"
-              description="Buscando atender às novas demandas tecnológicas, Joe é integrante da GreySpace Group desde 2018. Joe é um assistente responsável pela análise e monitoramento de dados, especialmente na área ambiental. Conta também com um software que capta as informações dos diários oficiais e principais veículos de imprensa dos países, auxiliando o nosso departamento de risco país. O Joe é uma Inteligência Artificial que nos ajuda a potencializar os resultados, aumentar a produtividade e economizar tempo. A partir dos dados captados, essa tecnologia de ponta fornece mais informações para que os experts da consultoria tenham mais precisão em suas análises, ao determinar os caminhos que a empresa e os clientes devem seguir de acordo com os serviços e produtos solicitados."
+              description={[
+                'Buscando atender às novas demandas tecnológicas, Joe é integrante da GreySpace Group desde 2018. Joe é um assistente responsável por auxiliar o processo de análise e monitoramento de dados, especialmente na área ambiental. Conta também com um software que capta as informações dos diários oficiais e principais veículos de imprensa dos países, auxiliando o nosso departamento de risco país. O Joe é uma Inteligência Artificial que nos ajuda a potencializar os resultados, aumentar a produtividade e economizar tempo. A partir dos dados captados, essa tecnologia de ponta fornece mais informações para que os experts da consultoria tenham mais precisão em suas análises, ao determinar os caminhos que a empresa e os clientes devem seguir de acordo com os serviços e produtos solicitados.',
+                <br></br>,
+                <br></br>,
+                '*Imagem meramente ilustrativa.'
+              ]}
             />
             <TeamCard
               index={6}

@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }) => {
           height: '100%'
         },
         body: {
-          fontFamily: 'poppins',
+          fontFamily: 'Poppins',
           minHeight: '100%'
         }
       }
