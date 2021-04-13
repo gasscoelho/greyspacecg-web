@@ -56,14 +56,13 @@ export default function TeamCard({
           <Flex flexDir="column">
             <Text
               fontSize={{ base: 'xl', md: '2xl' }}
-              fontWeight="medium"
+              fontWeight="semibold"
               textAlign={{ base: 'center', md: 'start' }}
             >
               {name}
             </Text>
             <Text
-              fontSize="md"
-              fontWeight="light"
+              fontWeight="semibold"
               color="gray.600"
               textAlign={{ base: 'center', md: 'start' }}
             >
