@@ -23,7 +23,7 @@ function Title({ title }) {
 
 function Description({ desc }) {
   const router = useRouter()
-  1
+  
   return (
     <Text
       mt="2"
